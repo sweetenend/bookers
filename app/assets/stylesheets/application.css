@@ -9,6 +9,13 @@ body {
   margin: 33px;
 }
 
+p, ol, ul, td {
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+  margin: 33px;
+}
+
 th {
   padding-bottom: 5px;
 }
@@ -50,4 +57,16 @@ td {
 
 a {
   color: #000;
+}
+
+.action {
+  margin-bottom: 10px;
+}
+
+.field {
+  margin-bottom: 10px;
+}
+
+label {
+  display: block;
 }
